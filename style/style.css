@@ -1,0 +1,21 @@
+
+/* tailwind import */
+@import "tailwindcss";
+
+
+
+
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+
+
+
+/* font family class */
+.hind-madurai{
+  font-family: "Hind Madurai", sans-serif;
+  font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
