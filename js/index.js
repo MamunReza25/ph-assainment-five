@@ -22,7 +22,7 @@ for (const callButton of callButtons) {
             const abaiAbleCoyent=Number(coyentBtn.innerText) -lessCoyent;
                        // current coyent cheek
             if (abaiAbleCoyent<0) {
-                alert("unsuficent coyent....");
+                alert(" ❌ Calling... unsuficent coyent....");
                 return;
                 
             }
@@ -30,7 +30,8 @@ for (const callButton of callButtons) {
                   coyentBtn.innerText=abaiAbleCoyent;
             
                   
-          alert(  subTitle +" "+ callNumber);
+          alert("📞 Calling... " + subTitle + " " + callNumber);
+
 
             const date=new Date().toLocaleTimeString();
             
@@ -59,3 +60,11 @@ for (const callButton of callButtons) {
     };
 
     // call button end
+
+
+    // clear button
+
+   document.getElementById("clear-btn").addEventListener("click",function(){
+       const sideBar=document.getElementById("side-bar");
+        sideBar.innerHTML="";
+   })
