@@ -63,14 +63,16 @@ for (const callButton of callButtons) {
 
 
     // clear button
-
+       
    document.getElementById("clear-btn").addEventListener("click",function(){
        const sideBar=document.getElementById("side-bar");
         sideBar.innerHTML="";
    });
       // clear button end
+           
 
-      // heart count button even deligation
+      
+      // heart count button /copy button even deligation
 
      document.getElementById("all-card-container").addEventListener('click',function(e){
                  
@@ -81,9 +83,92 @@ for (const callButton of callButtons) {
                   document.getElementById("heart-span-desbord").innerText=currentCount;
 
                 }
+
+            //    copy count
+
+            
+     
+                const copytBtn=document.getElementById("copy-span-desbord").innerText;
+                 const currentValue= Number(copytBtn)+1;
+                  document.getElementById("copy-span-desbord").innerText=currentValue;
+
+                  
+               
                  
+                
+                 
+    
+            });
+
+            // card-1
+            document.getElementById("copy-card-1").addEventListener('click',function(){
+                const numCopy=document.getElementById("num-copy-1")
+                   const innerValue= numCopy.innerText;
+                   navigator.clipboard.writeText(innerValue);
+                   alert("Now Copied Number... " + innerValue);
+                   
+     
+                
+            })
+            // card-2
+            document.getElementById("copy-card-2").addEventListener('click',function(){
+                const numCopy=document.getElementById("num-copy-2")
+                   const innerValue= numCopy.innerText;
+                   navigator.clipboard.writeText(innerValue);
+                  alert("Now Copied Number... " + innerValue);
+            })
+            // card-3
+            document.getElementById("copy-card-3").addEventListener('click',function(){
+                const numCopy=document.getElementById("num-copy-3")
+                   const innerValue= numCopy.innerText;
+                   navigator.clipboard.writeText(innerValue);
+                   alert("Now Copied Number... " + innerValue);
+            })
+            // card-4
+            document.getElementById("copy-card-4").addEventListener('click',function(){
+                const numCopy=document.getElementById("num-copy-4")
+                   const innerValue= numCopy.innerText;
+                   navigator.clipboard.writeText(innerValue);
+                alert("Now Copied Number... " + innerValue);
+            })
+          
+            // card-5
+            document.getElementById("copy-card-5").addEventListener('click',function(){
+                const numCopy=document.getElementById("num-copy-5")
+                   const innerValue= numCopy.innerText;
+                   navigator.clipboard.writeText(innerValue);
+                   alert("Now Copied Number... " + innerValue);
+            })
+            // card-6
+            document.getElementById("copy-card-6").addEventListener('click',function(){
+                const numCopy=document.getElementById("num-copy-6")
+                   const innerValue= numCopy.innerText;
+                   navigator.clipboard.writeText(innerValue);
+                  alert("Now Copied Number... " + innerValue);
+            })
+            // card-7
+            document.getElementById("copy-card-7").addEventListener('click',function(){
+                const numCopy=document.getElementById("num-copy-7")
+                   const innerValue= numCopy.innerText;
+                   navigator.clipboard.writeText(innerValue);
+                   alert("Now Copied Number... " + innerValue);
+            })
+            // card-8
+            document.getElementById("copy-card-8").addEventListener('click',function(){
+                const numCopy=document.getElementById("num-copy-8")
+                   const innerValue= numCopy.innerText;
+                   navigator.clipboard.writeText(innerValue);
+                   alert("Now Copied Number... " + innerValue);
+            })
+            // card-9
+            document.getElementById("copy-card-9").addEventListener('click',function(){
+                const numCopy=document.getElementById("num-copy-9")
+                   const innerValue= numCopy.innerText;
+                   navigator.clipboard.writeText(innerValue);
+                  alert("Now Copied Number... " + innerValue);
             })
 
 
 
-            
+              
+                
