@@ -83,21 +83,6 @@ for (const callButton of callButtons) {
                   document.getElementById("heart-span-desbord").innerText=currentCount;
 
                 }
-
-            //    copy count
-
-            
-     
-                const copytBtn=document.getElementById("copy-span-desbord").innerText;
-                 const currentValue= Number(copytBtn)+1;
-                  document.getElementById("copy-span-desbord").innerText=currentValue;
-
-                  
-               
-                 
-                
-                 
-    
             });
 
             // card-1
@@ -107,7 +92,9 @@ for (const callButton of callButtons) {
                    navigator.clipboard.writeText(innerValue);
                    alert("Now Copied Number... " + innerValue);
                    
-     
+                    const copytBtn=document.getElementById("copy-span-desbord").innerText;
+                 const currentValue= Number(copytBtn)+1;
+                  document.getElementById("copy-span-desbord").innerText=currentValue;
                 
             })
             // card-2
@@ -116,6 +103,11 @@ for (const callButton of callButtons) {
                    const innerValue= numCopy.innerText;
                    navigator.clipboard.writeText(innerValue);
                   alert("Now Copied Number... " + innerValue);
+
+                   const copytBtn=document.getElementById("copy-span-desbord").innerText;
+                 const currentValue= Number(copytBtn)+1;
+                  document.getElementById("copy-span-desbord").innerText=currentValue;
+                  
             })
             // card-3
             document.getElementById("copy-card-3").addEventListener('click',function(){
@@ -123,6 +115,10 @@ for (const callButton of callButtons) {
                    const innerValue= numCopy.innerText;
                    navigator.clipboard.writeText(innerValue);
                    alert("Now Copied Number... " + innerValue);
+
+                    const copytBtn=document.getElementById("copy-span-desbord").innerText;
+                 const currentValue= Number(copytBtn)+1;
+                  document.getElementById("copy-span-desbord").innerText=currentValue;
             })
             // card-4
             document.getElementById("copy-card-4").addEventListener('click',function(){
@@ -130,6 +126,10 @@ for (const callButton of callButtons) {
                    const innerValue= numCopy.innerText;
                    navigator.clipboard.writeText(innerValue);
                 alert("Now Copied Number... " + innerValue);
+
+                 const copytBtn=document.getElementById("copy-span-desbord").innerText;
+                 const currentValue= Number(copytBtn)+1;
+                  document.getElementById("copy-span-desbord").innerText=currentValue;
             })
           
             // card-5
@@ -138,6 +138,10 @@ for (const callButton of callButtons) {
                    const innerValue= numCopy.innerText;
                    navigator.clipboard.writeText(innerValue);
                    alert("Now Copied Number... " + innerValue);
+
+                    const copytBtn=document.getElementById("copy-span-desbord").innerText;
+                 const currentValue= Number(copytBtn)+1;
+                  document.getElementById("copy-span-desbord").innerText=currentValue;
             })
             // card-6
             document.getElementById("copy-card-6").addEventListener('click',function(){
@@ -145,6 +149,11 @@ for (const callButton of callButtons) {
                    const innerValue= numCopy.innerText;
                    navigator.clipboard.writeText(innerValue);
                   alert("Now Copied Number... " + innerValue);
+
+                   const copytBtn=document.getElementById("copy-span-desbord").innerText;
+                 const currentValue= Number(copytBtn)+1;
+                  document.getElementById("copy-span-desbord").innerText=currentValue;
+
             })
             // card-7
             document.getElementById("copy-card-7").addEventListener('click',function(){
@@ -152,6 +161,11 @@ for (const callButton of callButtons) {
                    const innerValue= numCopy.innerText;
                    navigator.clipboard.writeText(innerValue);
                    alert("Now Copied Number... " + innerValue);
+
+                    const copytBtn=document.getElementById("copy-span-desbord").innerText;
+                 const currentValue= Number(copytBtn)+1;
+                  document.getElementById("copy-span-desbord").innerText=currentValue;
+
             })
             // card-8
             document.getElementById("copy-card-8").addEventListener('click',function(){
@@ -159,6 +173,9 @@ for (const callButton of callButtons) {
                    const innerValue= numCopy.innerText;
                    navigator.clipboard.writeText(innerValue);
                    alert("Now Copied Number... " + innerValue);
+                    const copytBtn=document.getElementById("copy-span-desbord").innerText;
+                 const currentValue= Number(copytBtn)+1;
+                  document.getElementById("copy-span-desbord").innerText=currentValue;
             })
             // card-9
             document.getElementById("copy-card-9").addEventListener('click',function(){
@@ -166,6 +183,9 @@ for (const callButton of callButtons) {
                    const innerValue= numCopy.innerText;
                    navigator.clipboard.writeText(innerValue);
                   alert("Now Copied Number... " + innerValue);
+                   const copytBtn=document.getElementById("copy-span-desbord").innerText;
+                 const currentValue= Number(copytBtn)+1;
+                  document.getElementById("copy-span-desbord").innerText=currentValue;
             })
 
 
