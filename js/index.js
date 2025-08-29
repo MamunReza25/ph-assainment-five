@@ -67,4 +67,23 @@ for (const callButton of callButtons) {
    document.getElementById("clear-btn").addEventListener("click",function(){
        const sideBar=document.getElementById("side-bar");
         sideBar.innerHTML="";
-   })
+   });
+      // clear button end
+
+      // heart count button even deligation
+
+     document.getElementById("all-card-container").addEventListener('click',function(e){
+                 
+                if (e.target.className.includes("heart-btn")) {
+                     
+                const heartBtn=document.getElementById("heart-span-desbord").innerText;
+                 const currentCount= Number(heartBtn)+1;
+                  document.getElementById("heart-span-desbord").innerText=currentCount;
+
+                }
+                 
+            })
+
+
+
+            
